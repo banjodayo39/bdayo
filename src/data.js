@@ -48,6 +48,10 @@ const projectData = [
 
 export const WritingData = [
     {
+        title: "3D Graphics With OpenGL in Android",
+        link: "https://medium.com/codex/3d-graphics-with-opengl-in-android-5e5d8a4f7d2b"
+    },
+    {
         title: "Flower Bloom Animation with SwiftUI",
         link: "https://banjodayo39.medium.com/flower-bloom-animation-with-swiftui-bfb99a02e901"
     },
@@ -62,6 +66,10 @@ export const WritingData = [
     {
         title: "Custom Workout Alert with Dynamic Island and Live Activities",
         link: "https://banjodayo39.medium.com/customworkout-alert-with-dynamic-island-and-live-activities-ios-16-tutorial-iphone-14-6b29ca1a87a1"
+    },
+    {
+        title: "How to build a real-time Face Intelligent camera in iOS",
+        link: "https://banjodayo39.medium.com/how-to-build-a-real-time-face-intelligent-camera-in-ios-9119a6456d3f"
     },
     {
         title: "Understanding Language Modeling for Dummies",
