@@ -14,7 +14,7 @@ export const TitleText = styled.div`
   font-weight: 800;
   font-weight: bold;
   transition: 0.2s all ease;
-  text-align: center;
+  text-align: left;
   margin-bottom: 30px;
   align-items: center; /* Center items horizontally */
 `;
@@ -22,12 +22,12 @@ export const TitleText = styled.div`
 export const BodyText = styled.div`
   font-size: 18px;
   color: #80ffffff;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   margin-bottom: 10px;
   margin-top: 10px;
-  text-align: center;
-  font-weight: bold;
+  text-align: left;
+  font-weight: semibold;
   align-items: center; /* Center items horizontally */
 `;
 
@@ -78,4 +78,12 @@ export const SocialLinkText = styled.a`
   text-align: center;
   font-weight: bold;
   padding: 50px;
+`;
+
+export const ImageIcon = styled.img`
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  opacity: 0.5;
+  float: left;
 `;

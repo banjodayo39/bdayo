@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
 import styled from 'styled-components';
-import { Main, TitleText, BodyText, LinkText, Line, SocialLinkText } from './Styled';
+import { Main, TitleText, BodyText, LinkText, Line, SocialLinkText, ImageIcon } from './Styled';
 import ProjectCardView from './ProjectCardView.js';
 import projectData, { WritingData } from './data.js'
+import logoSrc from "../src/images/favicon.svg";
 
 function App() {
   return (
     <div className="App">
       <Main>
-        <Section></Section>
+        <Section><ImageIcon src={logoSrc} alt="Logo" className="image" />
+        </Section>
         <Section>
           <TitleText>Hello, my name is Dayo.</TitleText>
-          <BodyText>I'm a iOS and Graphics engineer.</BodyText>
+          <BodyText>I'm an iOS and Graphics engineer. <br></br>An experienced Software Engineer skilled in Graphics, Mobile App Development, Computer Vision, Web App, NLP, and Augmented Reality.</BodyText>
         </Section>
         <Section>
           <TitleText>Projects</TitleText>

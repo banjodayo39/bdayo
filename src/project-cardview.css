@@ -1,40 +1,61 @@
 .cardview {
-    background-color: #222;
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.15s transform ease;
-    cursor: pointer;
-  }
-  
-  .cardview:hover {
-    transform: scale(1.1);
+  display: inline-block;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.15s transform ease;
+  cursor: pointer;
+  height: auto;
+  max-width: 400px;
+}
+
+.cardview:hover {
+  transform: scale(1.1);
+}
+
+.img-card {
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto; 
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 18px;
+  color: #FFF;
+  text-align: left;
+}
+
+.project-link {
+  opacity: 0.4;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 600px;
+  color: #FFF;
+  line-height: 0;
+  text-align: left;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .cardview {
+    padding: 10px;
+    margin: 10px;
   }
   
   .img-card {
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
-    width: 400px;
-    height: 300px;
-    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
   }
   
   .project-title {
-    font-size: 18px;
-    color: #FFF;
-    text-align: left;
+    font-size: 16px;
   }
   
   .project-link {
-    opacity: 0.4;
-    margin-top: 0;
-    font-size: 16px;
-    font-weight: 600px;
-    color: #FFF;
-    line-height: 0;
-    text-align: left;
+    font-size: 14px;
   }
-  
+}
