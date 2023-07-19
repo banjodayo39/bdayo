@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bdayo/static/css/main.ed68b2c9.css",
+    "main.js": "/bdayo/static/js/main.e7862fc3.js",
+    "static/js/787.2e05b1f4.chunk.js": "/bdayo/static/js/787.2e05b1f4.chunk.js",
+    "index.html": "/bdayo/index.html",
+    "main.ed68b2c9.css.map": "/bdayo/static/css/main.ed68b2c9.css.map",
+    "main.e7862fc3.js.map": "/bdayo/static/js/main.e7862fc3.js.map",
+    "787.2e05b1f4.chunk.js.map": "/bdayo/static/js/787.2e05b1f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed68b2c9.css",
+    "static/js/main.e7862fc3.js"
+  ]
+}
