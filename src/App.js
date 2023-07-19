@@ -14,7 +14,7 @@ function App() {
         </Section>
         <Section>
           <TitleText>Hello, my name is Dayo.</TitleText>
-          <BodyText>I'm an iOS and Graphics engineer. <br></br>An experienced software engineer skilled in graphics, mobile development, computer Vision, web, nlp, and augmented reality.</BodyText>
+          <BodyText>I'm an iOS and Graphics engineer. <br></br>An experienced software engineer skilled in graphics, mobile app development, and computer vision.</BodyText>
         </Section>
         <Section>
           <TitleText>Projects</TitleText>
