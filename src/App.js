@@ -1,53 +1,42 @@
-import React, { Component } from 'react';
-import './App.css';
-import styled from 'styled-components';
-import { Main, TitleText, BodyText, LinkText, Line, SocialLinkText, ImageIcon } from './Styled';
-import ProjectCardView from './ProjectCardView.js';
-import projectData, { WritingData } from './data.js'
-import logoSrc from "../src/images/favicon.svg";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom"
+import { HomePage } from "./pages/HomePage";
+import { AboutPage } from "./pages/AboutPage";
+import { Footer, FooterContainer, StyledNavLink } from './components/PagesStyle';
 
 function App() {
   return (
-    <div className="App">
-      <Main>
-        <Section><ImageIcon src={logoSrc} alt="Logo" className="image" />
-        </Section>
-        <Section>
-          <TitleText>Hello, my name is Dayo.</TitleText>
-          <BodyText>I'm an iOS and Graphics engineer. <br></br>An experienced software engineer skilled in graphics, mobile app development, and computer vision.</BodyText>
-        </Section>
-        <Section>
-          <TitleText>Projects</TitleText>
-          <div className="grid-container">
-            {projectData.map((project, index) => (
-              <ProjectCardView
-                key={index}
-                title={project.title}
-                location={project.description}
-                videoSrc={project.videoSrc}
-              />
-            ))}
-          </div>
-        </Section>
-        <Section>
-          <TitleText>Writings</TitleText>
-          {WritingData.map((item, index) => (
-            <LinkText key={index} href={item.link}>
-              {item.title}
-            </LinkText>
-          ))}
-        </Section>
-        <Line />
-        <SocialLinkText href='https://twitter.com/banjo_dayo'>@dayobanjo</SocialLinkText>
-      </Main>
-
-    </div>
+    <BrowserRouter>
+      <main>
+        <Routes>
+          <Route index  element={<HomePage />} />
+          <Route index path="/bdayo" element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+        </Routes>
+      </main>
+      <Footer>
+        <FooterContainer>
+          <StyledNavLink to="/" end rel="noopener noreferrer">
+            <img src={process.env.PUBLIC_URL + '/res/homepage.svg'} alt="LinkedIn" />
+          </StyledNavLink>
+          <StyledNavLink to="/about" rel="noopener noreferrer">
+            <img src={process.env.PUBLIC_URL + '/res/about.svg'} alt="LinkedIn" />
+          </StyledNavLink>
+          <StyledNavLink to="https://www.twitter.com/banjo_dayo" target="_blank" rel="noopener noreferrer">
+            <img src={process.env.PUBLIC_URL + '/res/twitter.svg'} alt="Twitter" />
+          </StyledNavLink>
+          <StyledNavLink to="https://github.com/banjodayo39" target="_blank" rel="noopener noreferrer">
+            <img src={process.env.PUBLIC_URL + '/res/github.svg'} alt="Twitter" />
+          </StyledNavLink>
+          <StyledNavLink to="https://www.linkedin.com/in/banjo-dayo-samuel/" target="_blank" rel="noopener noreferrer">
+            <img src={process.env.PUBLIC_URL + '/res/linkedin.svg'} alt="LinkedIn" />
+          </StyledNavLink>
+          <StyledNavLink to="https://banjodayo39.medium.com/" target="_blank" rel="noopener noreferrer">
+            <img src={process.env.PUBLIC_URL + '/res/medium.svg'} alt="Medium" />
+          </StyledNavLink>
+        </FooterContainer>
+      </Footer>
+    </BrowserRouter>
   );
 }
 
-export const Section = styled.section`
-  margin: 30px 30px;
-  display: block;
-`;
-
-export default App;
+export default App
