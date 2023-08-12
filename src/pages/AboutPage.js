@@ -98,7 +98,7 @@ export function AboutPage() {
             castShadow={false}
             receiveShadow={false}
           >
-            I'm a Software Engineer
+            I'm a Software Engineer.
           </Text>
         </Canvas>
       </Suspense>
