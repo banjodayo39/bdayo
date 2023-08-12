@@ -43,7 +43,7 @@ export function AboutPage() {
               <MeshTransmissionMaterial resolution={1024} distortion={0.25} color="#FFF" thickness={1} anisotropy={1} />
             </mesh>
           </Caustics>
-          <Sphere color="lightpink" amount={30} emissive="white" glow="#ff90f0" size={0.25} position={[0, 0.5, -2]} />
+          <Sphere color="lightpink" amount={30} emissive="white" glow="#ff90f0" size={0.25} position={[0, 0.5, -3]} />
           <Sphere color="lightpink" amount={20} emissive="white" glow="lightgreen" size={0.25} position={[2, 0.5, -2]} />
           <ContactShadows renderOrder={2} color="black" resolution={1024} frames={1} scale={2} blur={1.5} opacity={0.5} far={0.5} />
           <BakeShadows />
