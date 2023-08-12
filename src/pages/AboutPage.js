@@ -32,7 +32,7 @@ export function AboutPage() {
       </div>
       }>
 
-        <Canvas shadows camera={{ position: [0, 3, 5], rotation: [-40, 0, 10], fov: 47 }}>
+        <Canvas shadows camera={{ position: [0, 3, 5], rotation: [0, 0, 0], fov: 60 }}>
           <color attach="background" args={['#f0f0f0']} />
           <ambientLight intensity={0.5} />
           <spotLight position={[5, 5, -10]} angle={0.15} penumbra={1} />
