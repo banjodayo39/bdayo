@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/bdayo/static/css/main.091e6974.css",
-    "main.js": "/bdayo/static/js/main.1db9f433.js",
+    "main.js": "/bdayo/static/js/main.50d05a7e.js",
     "static/js/787.2e05b1f4.chunk.js": "/bdayo/static/js/787.2e05b1f4.chunk.js",
     "static/media/aerodynamics_workshop.hdr": "/bdayo/static/media/aerodynamics_workshop.99d9af6b0e952b84118e.hdr",
     "index.html": "/bdayo/index.html",
     "main.091e6974.css.map": "/bdayo/static/css/main.091e6974.css.map",
-    "main.1db9f433.js.map": "/bdayo/static/js/main.1db9f433.js.map",
+    "main.50d05a7e.js.map": "/bdayo/static/js/main.50d05a7e.js.map",
     "787.2e05b1f4.chunk.js.map": "/bdayo/static/js/787.2e05b1f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.091e6974.css",
-    "static/js/main.1db9f433.js"
+    "static/js/main.50d05a7e.js"
   ]
 }
