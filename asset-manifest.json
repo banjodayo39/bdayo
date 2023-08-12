@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/bdayo/static/css/main.bb8de1b8.css",
-    "main.js": "/bdayo/static/js/main.4c86573c.js",
+    "main.css": "/bdayo/static/css/main.091e6974.css",
+    "main.js": "/bdayo/static/js/main.79e5a7e7.js",
     "static/js/787.2e05b1f4.chunk.js": "/bdayo/static/js/787.2e05b1f4.chunk.js",
     "index.html": "/bdayo/index.html",
-    "static/media/favicon.svg": "/bdayo/static/media/favicon.df5f71cdbe6ebd5498ef2c6c3c36bb8f.svg",
-    "main.bb8de1b8.css.map": "/bdayo/static/css/main.bb8de1b8.css.map",
-    "main.4c86573c.js.map": "/bdayo/static/js/main.4c86573c.js.map",
+    "main.091e6974.css.map": "/bdayo/static/css/main.091e6974.css.map",
+    "main.79e5a7e7.js.map": "/bdayo/static/js/main.79e5a7e7.js.map",
     "787.2e05b1f4.chunk.js.map": "/bdayo/static/js/787.2e05b1f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb8de1b8.css",
-    "static/js/main.4c86573c.js"
+    "static/css/main.091e6974.css",
+    "static/js/main.79e5a7e7.js"
   ]
 }
