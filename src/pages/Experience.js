@@ -21,8 +21,7 @@ export function NameText3D({ margin = 0.5 }) {
                     position={[-1.3, 0, 1]} 
                 >
                     {`Da`}
-                    <MeshTransmissionMaterial resolution={1024} distortion={0.25} color="white" thickness={1} anisotropy={0.3} shadowOpacity={0.15} />
-
+                    <MeshTransmissionMaterial resolution={1024} distortion={0.25} color="white" thickness={1} anisotropy={0.3} shadowOpacity={0.05} />
                 </Text3D>
                 <Text3D
                     curveSegments={100}

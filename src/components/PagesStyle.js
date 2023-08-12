@@ -165,6 +165,21 @@ margin:0;
 box-sizing: border-box;
 `;
 
+export const LoadingContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
+
+export const LoadingText = styled.div`
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+`;
+
 export const ImageList = styled.div`
   display: flex;
   align-items: center;
