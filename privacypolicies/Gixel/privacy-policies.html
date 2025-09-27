@@ -1,50 +1,58 @@
 <html>
 <head>
     <style>
-        [data-custom-class='body'],
-        [data-custom-class='body'] * {
-            background: transparent !important;
+        body {
+            margin: 0;
+            padding: 40px 20px; /* padding at top and sides */
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1d1d1f; /* Apple's subtle dark gray */
+            line-height: 1.6;
         }
-        [data-custom-class='title'],
-        [data-custom-class='title'] * {
-            font-family: Arial !important;
-            font-size: 26px !important;
-            color: #000000 !important;
+
+        [data-custom-class='title'] {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #000000;
         }
-        [data-custom-class='subtitle'],
-        [data-custom-class='subtitle'] * {
-            font-family: Arial !important;
-            color: #595959 !important;
-            font-size: 14px !important;
+
+        [data-custom-class='subtitle'] {
+            font-size: 14px;
+            font-weight: 400;
+            color: #6e6e73; /* Apple’s lighter gray */
+            margin-bottom: 30px;
+            display: block;
         }
-        [data-custom-class='heading_1'],
-        [data-custom-class='heading_1'] * {
-            font-family: Arial !important;
-            font-size: 19px !important;
-            color: #000000 !important;
+
+        [data-custom-class='body_text'] {
+            font-size: 15px;
+            color: #1d1d1f;
+            margin-bottom: 20px;
         }
-        [data-custom-class='body_text'],
-        [data-custom-class='body_text'] * {
-            color: #595959 !important;
-            font-size: 14px !important;
-            font-family: Arial !important;
+
+        strong {
+            font-weight: 600;
         }
-        [data-custom-class='link'],
-        [data-custom-class='link'] * {
-            color: #3030F1 !important;
-            font-size: 14px !important;
-            font-family: Arial !important;
-            word-break: break-word !important;
+
+        a {
+            color: #0071e3; /* Apple’s blue */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 40px;
         }
     </style>
 </head>
 <body>
-    <div data-custom-class="body">
-
-        <!-- PRIVACY POLICY -->
-        <div><strong><span data-custom-class="title">PRIVACY POLICY</span></strong></div>
-        <div><span data-custom-class="subtitle">Last updated September 27, 2025</span></div>
-        <div style="line-height: 1.5;" data-custom-class="body_text">
+    <div class="section">
+        <div data-custom-class="title">PRIVACY POLICY</div>
+        <span data-custom-class="subtitle">Last updated September 27, 2025</span>
+        <div data-custom-class="body_text">
             Thank you for choosing to use <strong>Gixel</strong>. Your privacy is very important to us.
             <br><br>
             <strong>1. Information We Collect</strong><br>
@@ -62,15 +70,14 @@
             Gixel does not knowingly collect data from children under 13. The app is safe for all ages since no user data leaves your device.
             <br><br>
             <strong>5. Contact</strong><br>
-            If you have questions, contact us at <a href="mailto:banjodayo39@gmail.com">banjodayo39@gmail.com</a>.
+            If you have questions, contact us at <a href="mailto:gixel2022@gmail.com">gixel2022@gmail.com</a>.
         </div>
+    </div>
 
-        <br><br>
-
-        <!-- TERMS & CONDITIONS -->
-        <div><strong><span data-custom-class="title">TERMS & CONDITIONS</span></strong></div>
-        <div><span data-custom-class="subtitle">Last updated September 27, 2025</span></div>
-        <div style="line-height: 1.5;" data-custom-class="body_text">
+    <div class="section">
+        <div data-custom-class="title">TERMS & CONDITIONS</div>
+        <span data-custom-class="subtitle">Last updated September 27, 2025</span>
+        <div data-custom-class="body_text">
             By downloading or using Gixel, you agree to the following Terms & Conditions:
             <br><br>
             <strong>1. Use of the App</strong><br>
@@ -84,7 +91,7 @@
             All content you create with Gixel remains on your device. You own your creations; we do not claim rights or store them.
             <br><br>
             <strong>4. Intellectual Property</strong><br>
-            Gixel’s code, branding, and design are owned by [Your Company/Name]. You may not use them without permission.
+            Gixel’s code, branding, and design are owned by <strong>Dayo Banjo</strong>. You may not use them without permission.
             <br><br>
             <strong>5. Disclaimer</strong><br>
             Gixel is provided “as is.” We do not guarantee error-free operation or uninterrupted access.
@@ -96,10 +103,10 @@
             We may update these Terms. Continued use after changes means you accept the updated Terms.
             <br><br>
             <strong>8. Governing Law</strong><br>
-            These Terms are governed by the laws of [Insert Jurisdiction].
+            These Terms are governed by the laws of <strong>California, United States</strong>.
             <br><br>
             <strong>9. Contact</strong><br>
-            For support, email <a href="mailto:banjodayo39@gmail.com">gixel2022@gmail.com</a>.
+            For support, email <a href="mailto:gixel2022@gmail.com">gixel2022@gmail.com</a>.
         </div>
     </div>
 </body>
